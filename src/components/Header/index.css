@@ -1,0 +1,100 @@
+header {
+    background-color: #24292f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.git {
+    color: #ffff;
+}
+
+.git:hover {
+    color: silver;
+}
+
+.bi-github {
+    font-size: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav_input {
+    margin-left: 20px;
+    padding: 6px 125px 6px 6px;
+    background-color: #24292f;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: #ffff 1px solid;
+}
+
+.nav_ul {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 70px;
+}
+
+.nav_ul_li_a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.nav_ul_li_a:hover {
+
+    color: silver;
+}
+
+
+.nav_social {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.bell {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #24292f;
+    color: #ffff;
+    border: none;
+}
+
+.avatar_image {
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.avatar {
+    display: flex;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.avatar_sup {
+    display: block;
+    background-color: blue;
+    width: 5px;
+    height: 5px;
+}

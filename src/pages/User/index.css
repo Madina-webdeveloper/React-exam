@@ -1,0 +1,40 @@
+
+.user{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+  
+  .user_r {
+    padding-left: 100px;
+    display: flex;
+
+  
+  }
+  
+  .user_image {
+    width: 280px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .user_name {
+    color: #57606a;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  
+  
+  button{
+    padding: 3px;
+    border:1px rgb(224, 221, 221) solid;
+    border-radius: 8px;
+   color: #57606a;
+   font-size: 16px;
+}

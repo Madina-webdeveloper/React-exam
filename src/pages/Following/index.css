@@ -1,0 +1,54 @@
+.followers{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fLine{
+  height: 1px;
+  background-color:silver;
+  margin-top:25px;
+    
+}
+
+.followers-box{
+  display: flex;
+  width: 800px;
+  align-items: center;
+ gap: 20px;
+
+
+}
+
+.followers-box__img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+
+.followers-box__btn{
+  display: flex;
+
+  border: 1px solid silver;
+  background-color: rgb(231, 226, 226);
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  padding: 5px;
+}
+
+
+.followers-box-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

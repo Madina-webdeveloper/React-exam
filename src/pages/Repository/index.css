@@ -1,0 +1,44 @@
+
+.repository{
+    display: flex;
+    gap: 15px;
+    padding-top: 60px;
+}
+
+
+
+.repo_input{
+    padding: 5px 12px;
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+select{
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+option{
+    padding: 5px 8px;
+}
+
+
+.new{
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+}
+
+.line_repo{
+    margin-top: 25px;
+    height: 2px;
+    background-color:silver;
+}

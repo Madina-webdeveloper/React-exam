@@ -1,0 +1,59 @@
+
+
+footer{
+    margin-top: 70px;
+ 
+}
+
+.footer{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.copyright{
+    color: rgb(81, 79, 79);
+}
+
+.copyright span{
+    padding: 5px;
+}
+
+
+.footer_g{
+    color: silver;
+   
+}
+
+.footer_git{
+    font-size: 30px;
+
+}
+
+.footer_s{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_ul{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_ul_li{
+    padding: 20px;
+}
+
+.footer_ul_li_link{
+    color: blue;
+    text-decoration: none;
+}
+
+.footer_ul_li_link:hover{
+text-decoration: underline;
+}

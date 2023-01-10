@@ -1,0 +1,84 @@
+.overview {
+    padding: 20px;
+    border: 1px solid silver;
+    width: 450px;
+    height: 100px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.repos_link {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+.overview_title:hover{
+    cursor: pointer;
+}
+
+.overview_title:hover .repos_link{
+   text-decoration: underline;
+}
+
+.overview_public {
+    border: 1px solid silver;
+    padding: 3px 5px 3px 7px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    color: rgb(130, 128, 128);
+}
+
+
+.overview_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.overview_p {
+    color: rgb(130, 128, 128);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.language {
+
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+    padding-right: 5px;
+}
+
+.red {
+    background-color: red;
+    padding-right: 5px;
+}
+
+.purple {
+    background-color: purple;
+    padding-right: 5px;
+}
